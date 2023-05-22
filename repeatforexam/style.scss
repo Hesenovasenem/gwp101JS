@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+
+  .header {
+    padding: 25px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    nav {
+      background-color: white;
+
+      padding: 5px;
+
+      ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-decoration: none;
+        gap: 40px;
+        li {
+          list-style: none;
+          text-decoration: none;
+
+          a {
+            list-style: none;
+            color: black;
+            text-decoration: none;
+            &:hover {
+              color: powderblue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+#home {
+  background-image: url(image/exam-bcg-sec1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 100px;
+  position: relative;
+  .home {
+    h2 {
+      color: white;
+      text-align: center;
+      padding: 100px 0;
+      font-size: 40px;
+      font-family: "Courier New", Courier, monospace;
+    }
+    .hometext {
+      width: 70%;
+      color: #fff;
+      padding: 80px;
+      h1 {
+        padding: 10px 0;
+      }
+      h3 {
+        padding: 20px 0;
+      }
+      p {
+        padding: 20px 0;
+      }
+      .row {
+        padding: 20px 0;
+      }
+      .started {
+        color: #fff;
+        background-color: orangered;
+        width: 200px;
+        height: 50px;
+      }
+    }
+    .homeimg {
+      width: 30%;
+      position: absolute;
+      left: 60%;
+
+      top: 180px;
+    }
+  }
+}
+#service {
+  height: 100vh;
+  margin-top: 100px;
+  position: relative;
+  h5 {
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .lorem {
+    color: gray;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+}
+
+#happyclient {
+    background-color: paleturquoise;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  .container {
+    .happyclient {
+     h2{
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 40px;
+        font-family: "Courier New", Courier, monospace;
+     }
+     p{
+        color: gray;
+        text-align: center;
+        padding: 50px 0;
+     }
+    }
+  }
+}
+#news{
+    height: 100vh;
+    margin-top: 50px;
+    position: relative;
+.container{
+    h1{
+        color: black;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 40px;
+        font-family: "Courier New", Courier, monospace;
+    }
+    p{
+        color: gray;
+        text-align: center;
+        padding: 50px 0;
+     }
+}
+}
+
+footer{
+    height: 50vh;
+    background-color: rgb(214, 213, 213);
+    padding: 90px;
+    .container{
+       .footer{
+       display: flex;
+        .leftfoot{
+            width: 20%;
+        }
+        .rightfoot{
+            width: 80%;
+            
+        }
+       }
+    }
+}
